@@ -1,0 +1,17 @@
+# Ignore large raw OSM exports
+data/osm_bangalore_roads.json
+data/*_roads.json
+
+# Ignore Python cache and virtual envs
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
