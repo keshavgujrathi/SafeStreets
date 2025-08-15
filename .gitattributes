@@ -1,1 +1,11 @@
 * text=auto
+
+# Force Jupyter notebooks to count as Python
+*.ipynb linguist-language=Python
+
+# Ignore auto-generated/export files
+*.html linguist-detectable=false
+*.json linguist-detectable=false
+
+# Keep README and docs visible in stats
+*.md linguist-detectable=true
